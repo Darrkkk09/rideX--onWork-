@@ -1,6 +1,8 @@
 import React from "react";
 import { FaFeatherAlt } from "react-icons/fa";
 import PublicationSection from "./PublicationSection";
+import ContactForm from "./ContactForm";
+
 
 const About = () => {
     const aboutPoints = [
@@ -69,6 +71,7 @@ const About = () => {
                 </div>
             </div>
             <PublicationSection />
+            <ContactForm />
         </div>
     );
 };
